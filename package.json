@@ -4,7 +4,7 @@
   "type": "module",
   "private": true,
   "license": "MIT",
-  "author": "Carl-Gerhard Lindesvärd",
+  "author": "Carl-Gerhard Lindesv\u00e4rd",
   "packageManager": "pnpm@10.6.2",
   "scripts": {
     "test": "vitest run",
@@ -18,7 +18,7 @@
     "codegen": "pnpm -r --filter db --filter geo run codegen",
     "migrate": "pnpm -r --filter db run migrate",
     "migrate:deploy": "pnpm -r --filter db run migrate:deploy",
-    "dev": "pnpm -r --parallel testing",
+    "dev": "node api.js && pnpm -r --parallel testing",
     "dev:public": "pnpm -r --filter public dev",
     "typecheck": "pnpm -r --no-bail typecheck",
     "update-simple-git-hooks": "npx simple-git-hooks",
