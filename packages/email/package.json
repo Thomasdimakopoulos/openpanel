@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "dev": "email dev --dir src/emails -p 3939",
+    "dev": "node init && email dev --dir src/emails -p 3939",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

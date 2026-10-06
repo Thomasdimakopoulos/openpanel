@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "next build --webpack",
-    "dev": "next dev -p 9090",
-    "start": "next start",
+    "build": "node init && next build --webpack",
+    "dev": "node init && next dev -p 9090",
+    "start": "node init && next start",
     "typecheck": "fumadocs-mdx && tsc --noEmit",
     "postinstall": "fumadocs-mdx",
     "lint": "biome check",
