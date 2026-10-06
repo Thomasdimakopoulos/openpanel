@@ -6,7 +6,7 @@
     "docPath": "apps/public/content/docs/(tracking)/sdks/nextjs.mdx"
   },
   "scripts": {
-    "build": "rm -rf dist && tsup",
+    "build": "node init && rm -rf dist && tsup",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

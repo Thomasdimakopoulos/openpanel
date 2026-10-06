@@ -110,8 +110,6 @@ web_modules/
 
 # dotenv environment variable files
 
-.env
-.env*
 
 # parcel-bundler cache (https://parceljs.org/)
 
@@ -189,3 +187,4 @@ dist
 .DS_Store
 
 *.tsbuildinfo
+config.bat
