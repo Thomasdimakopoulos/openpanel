@@ -187,4 +187,6 @@ dist
 .DS_Store
 
 *.tsbuildinfo
-config.bat
+
+.env
+.env*
